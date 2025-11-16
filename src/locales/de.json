@@ -1,0 +1,28 @@
+{
+  "commands": {
+    "tradelink": {
+      "description": "Stellen Sie Ihren Steam-Handelslink ein",
+      "usage": "!tradelink <trade_url>"
+    },
+    "balance": {
+      "description": "Zeige dein aktuelles Guthaben an",
+      "tf2Keys": "TF2 Schlüssel"
+    },
+    "buy": {
+      "description": "Kaufe TF2-Schlüssel mit Kryptowährung",
+      "usage": "!buy <amount> <cryptocurrency>"
+    },
+    "sell": {
+      "description": "Verkaufe deine TF2-Schlüssel für Kryptowährung",
+      "usage": "!sell <amount> <cryptocurrency>"
+    }
+  },
+  "messages": {
+    "accountNotFound": "Konto nicht gefunden. Verwende zuerst !tradelink.",
+    "invalidAmount": "Ungültiger Betrag angegeben.",
+    "insufficientBalance": "Unzureichendes Guthaben.",
+    "transactionProcessing": "Deine Transaktion wird verarbeitet...",
+    "success": "✅ Transaktion erfolgreich abgeschlossen!",
+    "error": "❌ Es ist ein Fehler aufgetreten. Bitte versuche es erneut."
+  }
+}

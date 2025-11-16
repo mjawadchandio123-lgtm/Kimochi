@@ -1,0 +1,28 @@
+{
+  "commands": {
+    "tradelink": {
+      "description": "Постави своју везу за трговину Steam-ом",
+      "usage": "!tradelink <trade_url>"
+    },
+    "balance": {
+      "description": "Прикажи твој тренутни биланс",
+      "tf2Keys": "TF2 Кључеви"
+    },
+    "buy": {
+      "description": "Купи TF2 кључеве са крипто валутом",
+      "usage": "!buy <amount> <cryptocurrency>"
+    },
+    "sell": {
+      "description": "Продај своје TF2 кључеве за крипто валуту",
+      "usage": "!sell <amount> <cryptocurrency>"
+    }
+  },
+  "messages": {
+    "accountNotFound": "Налог није пронађен. Користи !tradelink прво.",
+    "invalidAmount": "Наведена количина је неважећа.",
+    "insufficientBalance": "Недовољно средстава.",
+    "transactionProcessing": "Твоја трансакција се обрађује...",
+    "success": "✅ Трансакција успешно завршена!",
+    "error": "❌ Дошло је до грешке. Покушај поново."
+  }
+}

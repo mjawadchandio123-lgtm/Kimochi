@@ -1,0 +1,28 @@
+{
+  "commands": {
+    "tradelink": {
+      "description": "设置您的 Steam 交易链接",
+      "usage": "!tradelink <trade_url>"
+    },
+    "balance": {
+      "description": "显示您的当前余额",
+      "tf2Keys": "TF2 钥匙"
+    },
+    "buy": {
+      "description": "用加密货币购买 TF2 钥匙",
+      "usage": "!buy <amount> <cryptocurrency>"
+    },
+    "sell": {
+      "description": "出售您的 TF2 钥匙以换取加密货币",
+      "usage": "!sell <amount> <cryptocurrency>"
+    }
+  },
+  "messages": {
+    "accountNotFound": "找不到账户。请先使用 !tradelink。",
+    "invalidAmount": "指定的金额无效。",
+    "insufficientBalance": "余额不足。",
+    "transactionProcessing": "您的交易正在处理中...",
+    "success": "✅ 交易完成！",
+    "error": "❌ 发生错误。请重试。"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "commands": {
+    "tradelink": {
+      "description": "Set your Steam trade link",
+      "usage": "!tradelink <trade_url>"
+    },
+    "balance": {
+      "description": "Display your current balance",
+      "tf2Keys": "TF2 Keys"
+    },
+    "buy": {
+      "description": "Buy TF2 keys with cryptocurrency",
+      "usage": "!buy <amount> <cryptocurrency>"
+    },
+    "sell": {
+      "description": "Sell your TF2 keys for cryptocurrency",
+      "usage": "!sell <amount> <cryptocurrency>"
+    }
+  },
+  "messages": {
+    "accountNotFound": "Account not found. Please use !tradelink first.",
+    "invalidAmount": "Invalid amount specified.",
+    "insufficientBalance": "Insufficient balance.",
+    "transactionProcessing": "Your transaction is being processed...",
+    "success": "✅ Transaction completed successfully!",
+    "error": "❌ An error occurred. Please try again."
+  }
+}
